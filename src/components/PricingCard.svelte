@@ -15,7 +15,7 @@
     : pageviews * BASE_PRICE;
 
   function submitHandler() {
-    console.log("form data:", { pageviews: pageviews * 1000, period });
+    alert(`Pageviews: ${pageviews * 1000}, Period: ${period}`);
   }
 </script>
 
