@@ -1,9 +1,13 @@
+<script>
+  export let author;
+</script>
+
 <div class="attribution">
   Challenge by <a
     href="https://www.frontendmentor.io?ref=challenge"
     target="_blank">Frontend Mentor</a
   >. Coded by
-  <a href="https://www.linkedin.com/in/b-medvediev/">Borys Medvediev</a>.
+  <a href={author.link}>{author.name}</a>.
 </div>
 
 <style>

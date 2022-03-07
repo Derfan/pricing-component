@@ -13,7 +13,12 @@
   <PricingCard />
 </main>
 
-<Footer />
+<Footer
+  author={{
+    name: "Borys Medvediev",
+    link: "https://www.linkedin.com/in/b-medvediev/",
+  }}
+/>
 
 <style>
   main {
