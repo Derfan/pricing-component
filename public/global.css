@@ -21,7 +21,7 @@ html, body {
 body {
 	display: flex;
 	flex-direction: column;
-    background-color: var(--very-pale-blue);
+    background: var(--very-pale-blue) url("images/bg-pattern.svg") left top no-repeat;
 	color: var(--grayish-blue);
 	margin: 0;
 	padding: 0;
