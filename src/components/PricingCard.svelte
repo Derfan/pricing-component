@@ -28,7 +28,7 @@
       bind:value={pageviews}
     />
 
-    <PriceBlock {amount} {period} />
+    <PriceBlock {amount} />
 
     <InputSwitch bind:value={isYearlyPrice} />
   </div>

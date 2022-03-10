@@ -1,11 +1,10 @@
 <script>
   export let amount;
-  export let period;
 </script>
 
 <div class="price">
   <span class="price-amount">${amount.toFixed(2)}</span>
-  <span class="price-period">/ {period}</span>
+  <span class="price-period">/ month</span>
 </div>
 
 <style>
